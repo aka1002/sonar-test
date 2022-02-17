@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<dependency>
-  <groupId>org.sonarsource.scanner.ant</groupId>
-  <artifactId>sonarqube-ant-task</artifactId>
-  <version>1.10.7</version>
-</dependency>
+
 
 <antlib>
    <taskdef name="sonar" classname="org.sonarsource.scanner.ant.SonarQubeTask"/>
