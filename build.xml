@@ -30,7 +30,7 @@
     </taskdef>
     <findbugs home="lib/findbugs" output="xml" outputFile="build/findbugs.xml">
       <sourcePath path="src"/>
-      <class location="build/hello.jar"/>
+      <class location="target"/>
     </findbugs>
   </target>
 	
